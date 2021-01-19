@@ -35,7 +35,7 @@ const Main = () => {
     // if the length of `host` is 1, this probably means we're on localhost (no . in hostname)
     // if the length of `host` is 2, we're probably not on a subdomain (only one . in hostname)
     // if the length of `host` is three, the first item in the array is the subdomain
-    if (host.length === 2) {
+    if (host.length === 3) {
       setSubdomain(host[0]);
     }
 
