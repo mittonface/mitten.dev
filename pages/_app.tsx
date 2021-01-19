@@ -64,7 +64,9 @@ const Main = () => {
     if (subdomain === "") {
       return <p>Where do we take this unauthenticated user?</p>;
     } else {
-      return <p>We know where to take this unauthenticated user</p>;
+      return (
+        <p>We know where to take this unauthenticated user: {subdomain}</p>
+      );
     }
   }
 
