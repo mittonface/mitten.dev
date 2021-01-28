@@ -1,15 +1,13 @@
 import React, { ReactNode } from "react";
 
-import { Footer } from "./Footer";
 import Head from "next/head";
-import Link from "next/link";
 
 type Props = {
   children?: ReactNode;
   title?: string;
 };
 
-const Layout = ({ children, title = "This is the default title" }: Props) => (
+const Layout = ({ children }: Props) => (
   <div>
     <Head>
       <title>STONKS</title>
