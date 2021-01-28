@@ -21,7 +21,6 @@ yarn create next-app --example with-typescript with-typescript-app
 ```
 
 ### Download manually
-
 Download the example:
 
 ```bash
